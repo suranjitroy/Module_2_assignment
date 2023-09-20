@@ -5,7 +5,7 @@ $firstnum  = 0;
 $secondnum = 2;
 $thirdnum  = 2;
 
-for ( $i = 0; $i < 11; $i++ ) {
+for ( $i = 0; $i < 10; $i++ ) {
     echo $firstnum;
     echo "<br>";
     $secondnum = $thirdnum;

@@ -1,15 +1,14 @@
 <?php
 
-for($i=1; $i<=50; $i++){
+echo "<h2>Task 2:Skip Multiples of 5</h2>";
 
-    if($i == 5){
+for ( $i = 1; $i <= 50; $i++ ) {
+
+    if ( $i%5 == 0 ) {
         continue;
     }
     echo $i;
-    echo"<br>";  
+    echo "<br>";
 }
-
-
-
 
 ?>
